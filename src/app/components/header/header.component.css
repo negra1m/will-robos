@@ -1,0 +1,35 @@
+.fixed {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  background-color: #fafafa;
+}
+
+.align-left {
+  display: flex;
+  justify-content: flex-start;
+}
+.align-end {
+  display: flex;
+  align-content: flex-end;
+}
+.font-default {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: GothamSimple;
+}
+.h-60 {
+  width: 100%;
+  top: 0;
+  height: 6rem;
+}
+
+.click {
+  cursor: pointer;
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.75);
+}

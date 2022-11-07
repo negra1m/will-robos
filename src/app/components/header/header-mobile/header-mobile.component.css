@@ -1,0 +1,18 @@
+.h-60 {
+  width: 100%;
+  top: 0;
+  height: 6rem;
+}
+
+.fixed {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  background-color: #fafafa;
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.75);
+}

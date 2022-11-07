@@ -1,0 +1,18 @@
+<ng-container>
+  <a
+    target="blank"
+    href="https://wa.me/1194853-0923?text=Olá! Gostaria de saber mais sobre seus produtos!"
+    class="btn-whatsapp-pulse btn-whatsapp-pulse-border"
+  >
+    <img width="45px" src="assets/images/wpp-logo.png" />
+  </a>
+  <!-- <div *ngIf="!isMobile; else headerMobile"> -->
+    <app-header></app-header>
+  <!-- </div> -->
+  <app-section [isMobile]="isMobile"></app-section>
+  <app-footer></app-footer>
+</ng-container>
+
+<ng-template #headerMobile>
+  <app-header-mobile></app-header-mobile>
+</ng-template>

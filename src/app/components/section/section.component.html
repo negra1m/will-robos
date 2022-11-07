@@ -1,0 +1,64 @@
+<ng-container>
+  <section class="fontblack section-background parallax1">
+    <div [ngClass]="{ resize: isMobile }" class="text-highlight fade-in">
+      <h1 [ngClass]="{ isMobile: isMobile }">
+        “Nem tudo que parece lixo. <br />É lixo!”
+      </h1>
+      <br />
+      <span> WILL ARRUDA | FUNDADOR </span>
+    </div>
+  </section>
+  <section class="text-bloc">
+    <app-panel></app-panel>
+  </section>
+
+  <section
+    [ngClass]="{ 'section-bg': isMobile }"
+    class="section-background parallax2"
+  >
+    <h2 [ngClass]="{ isMobile: isMobile }">UM TEXTO BONITÃO</h2>
+    <div [ngClass]="{ resize: isMobile }">
+      <span>
+        Mussum Ipsum, cacilds vidis litro abertis. Praesent malesuada urna nisi,
+        quis volutpat erat hendrerit non. Nam vulputate dapibus.Quem manda na
+        minha terra sou euzis!Cevadis im ampola pa arma uma pindureta.Aenean
+        aliquam molestie leo, vitae iaculis nisl. </span
+      ><br />
+      <div class="fade-in" style="font-size: 15px; margin-top: 16rem">
+        VEJA O VÍDEO ABAIXO
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div style="background-color: #000">
+      <video
+        [ngClass]="{ isMobile: isMobile }"
+        controls
+        autoplay
+        muted="muted"
+        id="myVideo"
+      >
+        <source src="https://www.instagram.com/reel/CkJff46pHIh/" type="video/mp4" />
+      </video>
+    </div>
+  </section>
+
+  <section
+    [ngClass]="{ 'section-bg': isMobile }"
+    class="section-background parallax3"
+  >
+    <h2 [ngClass]="{ isMobile: isMobile }">
+      "A arte não é um trabalho manual,<br />ela é a transmissão de sentimento
+      que o artista experimentou."
+    </h2>
+    <div [ngClass]="{ resize: isMobile }">
+      <span
+        >Mussum Ipsum, cacilds vidis litro abertis. Praesent malesuada urna
+        nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.Quem manda
+        na minha terra sou euzis!Cevadis im ampola pa arma uma pindureta.Aenean
+        aliquam molestie leo, vitae iaculis nisl.
+      </span>
+    </div>
+  </section>
+</ng-container>

@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Gotham;
+}
+h1 {
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+h1.isMobile {
+  font-size: 8vw;
+}
+
+h2 {
+  font-size: 3vw;
+}
+
+h2.isMobile {
+  font-size: 6vw;
+}
+
+.section-background {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    gap: 3rem;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section-bg {
+  height: 150vh!important;
+  padding-top: 3rem!important;
+}
+
+
+.text-highlight {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  margin-top: 10rem;
+}
+
+.isPhone {
+  width: 100%;
+  height: 150%;
+}
+
+.section-background::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /* background-image: url("src/assets/weed-1.jpg"); */
+  background-size: cover;
+  filter: brightness(0.5);
+}
+
+.section-background > span{
+  font-size: 1.5rem;
+}
+
+.section-background > div {
+  width: 40%;
+  text-align: center;
+}
+
+.resize {
+  width: 80%!important;
+}
+
+.parallax1 {
+  background-image: url('src/assets/images/weed-1.jpg');
+}
+
+.parallax2 {
+    background-image: url("src/assets/images/weed-5.jpg");
+}
+
+.parallax3 {
+    background-image: url("src/assets/images/weed-6.jpg");
+}
+
+
+.text-bloc p {
+    margin: 75px;
+    font-size: 22px;
+}
+/*
+ */
+
+ #myVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: relative;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+}
+
+video {
+  width: 100%;
+  max-height: 100%;
+}
+
+video.isMobile {
+  height: 700px!important;
+}

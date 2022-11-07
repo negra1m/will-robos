@@ -1,0 +1,42 @@
+.panel {
+  margin-top: 0rem;
+  background-color: #FAFAFA;
+  padding: 12rem 0 6rem 0;
+}
+
+.text {
+  max-width: 40vw;
+  font-size: 1.5vw;
+}
+
+.text-mobile {
+  font-size: 4vw;
+  width: 80%;
+  text-align: center;
+}
+
+.picture {
+  border-radius: 100%;
+  height: 30vw;
+}
+
+.picture-mobile {
+  border-radius: 100%;
+  width: 100%!important;
+}
+/*
+ <p>
+ A MULTI GENERATIONAL FAMILY
+      FARM NOW RUN BY HIS SON DANIEL WHO HAS CARRIED ON THE TRADITION OF SAVING
+      SEEDS AND HAS 16 YEARS OF CULTIVATION EXPERIENCE. TOGETHER THEY GROW
+      HEIRLOOM FLOWERS AND ADDITIONALLY HAVE A NURSERY FOR SEED PRODUCTION.
+    </p>
+    <p>
+      THE FARM IS PART OF SOUTHERN MIDDLE MOUNTAIN APPELLATION WITH A NORTH WEST
+      FACING SLOPE SURROUNDED BY CONIFERS AND OAKS, IDEAL FOR TERPENE AND RESIN
+      PRODUCTION. THE FARM IS DRAGONFLY EARTH MEDICINE CERTIFIED, DIVERSE WITH
+      FLOWERS, FRUIT TREES, AND VEGGIES, THESE STEWARDS OF EARTH PRODUCE HIGH
+      QUALITY FLOWER. “WHEN YOU LOVE WHAT YOU DO IT SHOWS, WE HOPE YOU ENJOY THE
+      LOVE.”
+    </p>
+*/
